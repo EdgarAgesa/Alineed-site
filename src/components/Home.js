@@ -1,4 +1,5 @@
 import React from 'react';
+import LiveChat from './Livechat';
 import { CogIcon, AdjustmentsIcon, ScissorsIcon, KeyIcon, ColorSwatchIcon, PhoneIcon, ShieldCheckIcon } from '@heroicons/react/solid';
 import logo from '../assests/Alineed_Solutions.gif';
 
@@ -17,6 +18,7 @@ const Home = () => {
         >
         </div>
       </header>     
+      <LiveChat />
 
       {/* Services Section */}
       <section className="py-16 bg-white" id="services">
