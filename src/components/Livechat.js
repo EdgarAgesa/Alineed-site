@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 
 const LiveChat = () => {
   useEffect(() => {
-    // Tawk.to script
     window.Tawk_API = window.Tawk_API || {};
     (function () {
       var s1 = document.createElement('script');
