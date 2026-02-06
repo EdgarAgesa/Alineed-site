@@ -3,7 +3,6 @@ import React from "react";
 const About = () => {
     return (
         <div className="min-h-screen bg-gray-50 flex flex-col overflow-x-hidden pt-16">
-            {/* About Us Section */}
             <section className="py-12 px-4 bg-gradient-to-r from-teal-200 to-blue-100 text-center" id="about">
                 <h2 className="text-4xl font-extrabold text-gray-900 mb-4">About Alineed Solutions</h2>
                 <p className="mt-4 text-gray-800 text-lg max-w-3xl mx-auto">
