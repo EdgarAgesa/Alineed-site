@@ -4,12 +4,10 @@ import { motion } from "framer-motion";
 const Blogs = () => {
     return (
         <div className="bg-gray-100">
-            {/* Blog or Tips Section */}
             <section className="py-16 px-4 bg-gradient-to-r from-yellow-50 via-red-50 to-pink-50 text-gray-800 text-center" id="blog">
                 <div className="max-w-5xl mx-auto">
                     <h2 className="text-4xl font-extrabold text-gray-900 mb-12">Blog & Tips</h2>
 
-                    {/* Blog Post 1 */}
                     <motion.div
                         className="mb-12 p-6 bg-white shadow-lg rounded-lg text-left border-l-8 border-green-400"
                         initial={{ opacity: 0, y: 20 }}
@@ -30,7 +28,6 @@ const Blogs = () => {
                         </p>
                     </motion.div>
 
-                    {/* Blog Post 2 */}
                     <motion.div
                         className="mb-12 p-6 bg-white shadow-lg rounded-lg text-left border-l-8 border-blue-400"
                         initial={{ opacity: 0, y: 20 }}
@@ -51,7 +48,6 @@ const Blogs = () => {
                         </p>
                     </motion.div>
 
-                    {/* Blog Post 3 */}
                     <motion.div
                         className="p-6 bg-white shadow-lg rounded-lg text-left border-l-8 border-purple-400"
                         initial={{ opacity: 0, y: 20 }}
