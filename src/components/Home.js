@@ -20,7 +20,7 @@ const Home = () => {
       </header>     
       <LiveChat />
 
-      {/* Services Section */}
+      
       <section className="py-16 bg-white" id="services">
         <h2 className="text-3xl font-bold text-gray-800 text-center">Our Services</h2>
         <div className="max-w-full mx-auto px-4 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
@@ -56,7 +56,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Why Choose Us Section */}
       <section className="bg-gradient-to-r from-gray-50 to-gray-100 py-16" id="why-choose-us">
         <h2 className="text-3xl font-bold text-gray-800 text-center">Why Choose Us</h2>
         <div className="max-w-full mx-auto px-4 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-4">
@@ -78,7 +77,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Testimonials Section */}
       <section className="py-16 bg-gray-100" id="testimonials">
         <h2 className="text-3xl font-bold text-gray-800 text-center">What Our Clients Say</h2>
         <div className="max-w-full mx-auto px-4 mt-8 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-4">
@@ -100,12 +98,10 @@ const Home = () => {
         </div>
       </section>
 
-      {/* FAQ Section */}
       <section className="py-16 bg-gray-100 text-gray-800" id="faq">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-8">Frequently Asked Questions</h2>
 
-          {/* FAQ Item 1 */}
           <div className="mb-6">
             <h3 className="text-xl font-semibold text-gray-700">What is the turnaround time for repairs?</h3>
             <p className="mt-2 text-gray-600">
@@ -113,7 +109,6 @@ const Home = () => {
             </p>
           </div>
 
-          {/* FAQ Item 2 */}
           <div className="mb-6">
             <h3 className="text-xl font-semibold text-gray-700">How much do repairs cost?</h3>
             <p className="mt-2 text-gray-600">
@@ -121,7 +116,6 @@ const Home = () => {
             </p>
           </div>
 
-          {/* FAQ Item 3 */}
           <div className="mb-6">
             <h3 className="text-xl font-semibold text-gray-700">What payment methods do you accept?</h3>
             <p className="mt-2 text-gray-600">
@@ -129,7 +123,6 @@ const Home = () => {
             </p>
           </div>
 
-          {/* FAQ Item 4 */}
           <div className="mb-6">
             <h3 className="text-xl font-semibold text-gray-700">Do you offer a warranty on repairs?</h3>
             <p className="mt-2 text-gray-600">
@@ -137,7 +130,6 @@ const Home = () => {
             </p>
           </div>
 
-          {/* FAQ Item 5 */}
           <div className="mb-6">
             <h3 className="text-xl font-semibold text-gray-700">Can I drop off my luggage outside of business hours?</h3>
             <p className="mt-2 text-gray-600">
@@ -147,14 +139,12 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Contact Section */}
       <section className="py-12 bg-gray-800 text-white text-center" id="contact">
         <h2 className="text-3xl font-bold">Contact Us</h2>
         <p className="mt-4 text-lg">We're located at Utawala Shooters, Nairobi. Feel free to drop by for any inquiries or reach out to us:</p>
         <p className="mt-2">Phone: +254721987966</p>
         <p className="mt-1">Email: contact@alineedsolutions.com</p>
 
-        {/* Google Maps Embed */}
         <div className="mt-8 mx-auto max-w-md">
           <iframe 
             title="Shop Location"
